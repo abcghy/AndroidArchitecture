@@ -6,7 +6,7 @@
 
         <variable
             name="story"
-            type="com.example.data.Story" />
+            type="com.example.architecturedemo.data.Story" />
 
     </data>
 

@@ -1,4 +1,4 @@
-package com.example.data
+package com.example.architecturedemo.data
 
 import com.google.gson.*
 import okhttp3.OkHttpClient

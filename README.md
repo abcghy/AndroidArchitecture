@@ -7,13 +7,14 @@
 - [ ] ViewModel
 - [ ] Retrofit
 - [ ] Koroutine
+- [ ] [依赖](https://developer.android.com/jetpack/androidx/releases/viewpager2) [官方文档](https://developer.android.com/training/animation/screen-slide-2)
 
 ## 细节
 - [ ] Proguard
 - [ ] Timber
 
 ## 即将加入
-- [ ] Room
+- [ ] Room (last time for refresh today api)
 - [ ] Paging?
 - [ ] Navigation?
 - [ ] 多 Module
@@ -32,3 +33,6 @@ and so on
 - [ ] 知乎日报的主要UI
 - [ ] 保存用户之前阅读的位置
 - [ ] StateView
+
+## Thanks To
+[知乎日报API](https://github.com/nonoroazoro/Zhihu-Daily-Reader/blob/master/Zhihu-Daily-API.md)

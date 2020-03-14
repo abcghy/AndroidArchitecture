@@ -1,4 +1,6 @@
-package com.example.data
+package com.example.architecturedemo.data
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.util.*
 
@@ -7,16 +9,25 @@ data class LatestRes(
     @SerializedName("date")
     val date: Date?,
     @SerializedName("stories")
-    val stories: List<Story>?,
+    val stories: MutableList<Story>?,
     @SerializedName("top_stories")
     val topStories: List<TopStory>?
 )
 
+data class HistoryRes(
+    @SerializedName("date")
+    val date: Date?,
+    @SerializedName("stories")
+    val stories: List<Story>?
+)
+
+@Entity
 data class Story(
     @SerializedName("ga_prefix")
     val gaPrefix: String?,
     @SerializedName("hint")
     val hint: String?,
+    @PrimaryKey
     @SerializedName("id")
     val id: Int?,
     @SerializedName("image_hue")
